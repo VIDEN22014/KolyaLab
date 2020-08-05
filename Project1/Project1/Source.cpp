@@ -1,22 +1,21 @@
 #include <iostream>
-#include <conio.h>
 using namespace std;
 class Alpha {
 public:
-	static int n;
+	static int objCount;
 	Alpha();
 	~Alpha();
 };
-int Alpha::n = 0;
+int Alpha::objCount;
 Alpha::Alpha()
 {
-		if (n == 0) cout << "First object has been created" << endl;
-	n++;
+	if (objCount == 0) cout << "First object has been created" << endl;
+	objCount++;
 }
 Alpha::~Alpha()
 {
-	n--;
-	if (n == 0) cout << "Last element has been deleted";
+	objCount--;
+	if (objCount == 0) cout << "Last element has been deleted";
 }
 int main()
 {
