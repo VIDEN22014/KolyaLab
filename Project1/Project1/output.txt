@@ -1,0 +1,8 @@
+Faculty name : MIF
+Dekan prizv : Pilipiv
+Group count : 2
+Student count : 40 32 
+Faculty name : FIM
+Dekan prizv : Pilipiv
+Group count : 2
+Student count : 0 15 

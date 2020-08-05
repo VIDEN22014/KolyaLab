@@ -1,0 +1,13 @@
+3
+Chernivetsky_MIF
+Pilipiv
+2
+40 32 
+FIM
+Pilipiv
+2
+0 15
+FIM
+Ilyash
+3
+1 15 5 
