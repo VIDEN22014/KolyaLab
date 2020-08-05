@@ -15,12 +15,13 @@ Alpha::Alpha()
 Alpha::~Alpha()
 {
 	objCount--;
-	if (objCount == 0) cout << "Last element has been deleted";
+	if (objCount == 0) cout << "Last element has been deleted"<<endl;
 }
 int main()
 {
 	Alpha* a;
 	a = new Alpha[5];
 	delete[] a;
+	system("pause");
 	return 0;
 }
